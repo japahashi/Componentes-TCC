@@ -1,0 +1,32 @@
+.bloom-hero-banner {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  min-height: 220px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.bloom-hero-banner-image {
+  position: absolute;
+  inset: 0;
+  background: var(--color-neutral-bg);
+}
+
+.bloom-hero-banner-content {
+  position: relative;
+  padding: 20px;
+  color: #ffffff;
+  font-family: var(--font-family);
+}
+
+.bloom-hero-banner-content h2 {
+  font-size: 22px;
+  margin: 0 0 4px;
+}
+
+.bloom-hero-banner-content p {
+  margin: 0;
+  font-size: 13px;
+  opacity: 0.9;
+}

@@ -1,0 +1,55 @@
+.bloom-list-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  font-family: var(--font-family);
+}
+
+.bloom-list-item.is-clickable {
+  cursor: pointer;
+}
+
+.bloom-list-item-icon {
+  background: var(--color-neutral-bg);
+  border-radius: var(--radius-sm);
+}
+
+.bloom-list-item-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.bloom-list-item-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bloom-list-item-subtitle {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bloom-list-item-meta {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  text-align: right;
+}
+
+.bloom-list-item-trailing {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
