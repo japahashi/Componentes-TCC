@@ -20,7 +20,7 @@ function Sidebar({ items, activeId, onSelect, menuIcon, onMenuClick }: SidebarPr
   return (
     <nav className="bloom-sidebar">
       <button type="button" className="bloom-sidebar-menu" onClick={onMenuClick}>
-        <IconSlot icon={menuIcon} label="menu" size={24} />
+        <IconSlot icon={menuIcon} label="menu" size={50} />
       </button>
 
       {items.map((item) => (
@@ -31,7 +31,7 @@ function Sidebar({ items, activeId, onSelect, menuIcon, onMenuClick }: SidebarPr
           className={item.id === activeId ? "bloom-sidebar-item is-active" : "bloom-sidebar-item"}
           onClick={() => onSelect(item.id)}
         >
-          <IconSlot icon={item.icon} label={item.label} size={28} />
+          <IconSlot icon={item.icon} label={item.label} size={40} />
         </button>
       ))}
     </nav>
