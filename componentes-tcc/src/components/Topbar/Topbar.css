@@ -1,9 +1,8 @@
 .bloom-topbar {
   display: flex;
   align-items: center;
-  gap: 16px;
-  padding: 12px 20px;
-  background: var(--color-bg);
+  gap: 1.1vw;
+  padding: 0.8vh 0;
   font-family: var(--font-family);
 }
 
@@ -17,14 +16,14 @@
   align-items: flex-end;
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 1.5vw;
   color: var(--color-primary-dark);
 }
 
 .bloom-topbar-brand-mark {
   display: inline-flex;
-  width: 44px;
-  height: 44px;
+  width: 2.2vw;
+  height: 2.2vw;
 }
 
 .bloom-topbar-brand-mark img {
@@ -34,27 +33,27 @@
 }
 
 .bloom-topbar-brand-letter {
-  font-size: 34px;
+  font-size: 2.2vw;
   color: var(--color-primary);
 }
 
 .bloom-topbar-brand-subtitle {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 12px;
+  font-size: 0.8vw;
   font-weight: 700;
   color: #9c7d3f;
-  margin-left: 4px;
+  margin-left: 0.3vw;
 }
 
 .bloom-topbar-search {
   flex: 1;
-  max-width: 420px;
+  max-width: 28vw;
 }
 
 .bloom-topbar-actions {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 0.8vw;
   margin-left: auto;
 }
 
@@ -63,8 +62,8 @@
   border: none;
   background: var(--color-surface);
   border-radius: 999px;
-  width: 36px;
-  height: 36px;
+  width: 2.4vw;
+  height: 2.4vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,41 +72,41 @@
 
 .bloom-topbar-bell-count {
   position: absolute;
-  top: -2px;
-  right: -2px;
+  top: -0.1vw;
+  right: -0.1vw;
   background: var(--color-alert-text);
   color: #fff;
-  font-size: 10px;
+  font-size: 0.6vw;
   border-radius: 999px;
-  min-width: 16px;
-  height: 16px;
+  min-width: 1vw;
+  height: 1vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 3px;
+  padding: 0 0.2vw;
 }
 
 .bloom-topbar-date {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.5vw;
   background: var(--color-surface);
-  border: 1px solid var(--color-border);
+  border: 0.06vw solid var(--color-border);
   border-radius: var(--radius-md);
-  padding: 8px 14px;
+  padding: 0.5vh 0.9vw;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 0.8vw;
   color: var(--color-text);
 }
 
 .bloom-topbar-user {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.6vw;
   border: none;
   background: var(--color-surface);
   border-radius: 999px;
-  padding: 6px 18px 6px 6px;
+  padding: 0.4vh 1.1vw 0.4vh 0.4vw;
   box-shadow: var(--shadow-card);
   cursor: pointer;
 }
@@ -124,12 +123,12 @@
 }
 
 .bloom-topbar-user-name {
-  font-size: 13px;
+  font-size: 0.8vw;
   font-weight: 600;
   color: var(--color-text);
 }
 
 .bloom-topbar-user-role {
-  font-size: 11px;
+  font-size: 0.7vw;
   color: var(--color-text-muted);
 }

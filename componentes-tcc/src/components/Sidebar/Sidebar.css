@@ -1,19 +1,21 @@
 .bloom-sidebar {
-  width: 88px;
+  width: 3.2vw;
   background: var(--color-sidebar);
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
-  padding: 20px 0;
+  gap: 1.5vh;
+  padding: 2vh 0;
   height: 100vh;
   justify-content: space-around;
+  box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 .bloom-sidebar-item {
-  width: 56px;
-  height: 56px;
-  border-radius: 50vw;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
   border: none;
   background: transparent;
   color: var(--color-sidebar-icon);
@@ -29,8 +31,8 @@
 }
 
 .bloom-sidebar-menu {
-  width: 56px;
-  height: 44px;
+  width: 2vw;
+  height: 2vw;
   border-radius: var(--radius-md);
   border: none;
   background: transparent;
@@ -39,5 +41,5 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  margin-bottom: 8px;
+  margin-bottom: 0.5vh;
 }
